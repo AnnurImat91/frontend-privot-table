@@ -12,7 +12,7 @@ export default function Home() {
   const [uploading, setUploading] = useState(false);
 
   const fileInputRef = useRef(null);
-  const API = "http://backend-production-4bb5.up.railway.app";
+  const API = "https://backend-production-4bb5.up.railway.app";
 
   // 📌 Ambil daftar file
   const fetchFiles = () => {
